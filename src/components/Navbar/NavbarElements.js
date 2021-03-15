@@ -17,10 +17,15 @@ export const NavLink = styled(Link)`
   align-items: center;
   text-decoration: none;
   cursor: pointer;
-  @media screen and (max-width: 400px) {
+  @media screen and (max-width: 500px) {
     position: absolute;
     top: 10px;
     left: 25px;
+    width: 150px;
+  }
+
+  @media screen and (max-width: 300px) {
+    width: 150px;
   }
 `;
 
